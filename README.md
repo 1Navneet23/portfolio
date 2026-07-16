@@ -3,8 +3,7 @@
 This repository contains my personal portfolio website built using HTML and CSS.
 
 ## Live Demo
-
-https://your-vercel-url.vercel.app
+https://portfolio-12-rust.vercel.app/
 
 ## Features
 
