@@ -1,0 +1,165 @@
+/* Base */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+a {
+    color: #2563EB;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Nav */
+nav {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    padding: 14px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 14px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+nav a:hover {
+    color: #2563EB;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header / Hero */
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: #222;
+    margin-bottom: 8px;
+}
+
+header p {
+    margin: 10px 0;
+}
+
+.hero-role {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Sections */
+section {
+    margin: 30px 0;
+    text-align: center;
+    scroll-margin-top: 20px;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+
+/* Skills */
+.skills {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skills li {
+    background-color: #eef4fb;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Projects */
+.project {
+    text-align: left;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin: 0 0 4px 0;
+}
+
+.project .tech {
+    font-size: 13px;
+    color: #666;
+    margin: 4px 0 10px 0;
+}
+
+.project ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+/* Certifications */
+.cert-list {
+    list-style: none;
+    padding: 0;
+}
+
+.cert-list li {
+    margin: 6px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    font-size: 13px;
+}
+
+footer p {
+    margin: 4px 0;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .container {
+        width: 92%;
+        padding: 20px;
+    }
+
+    .skills {
+        justify-content: flex-start;
+    }
+
+    nav a {
+        margin: 0 8px;
+        font-size: 13px;
+    }
+}
